@@ -13,9 +13,8 @@ class Menu extends React.Component {
 
            <div>
 
-
             <div className="button-burger" onClick={this.change}>
-                <div className="bar1">npm </div>
+                <div className="bar1"></div>
                 <div className="bar2"></div>
                 <div className="bar3"></div>
             </div>
