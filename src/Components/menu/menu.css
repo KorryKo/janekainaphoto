@@ -1,0 +1,82 @@
+.menu {
+    background-color: #216490;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    width: 0;
+    z-index: 1;
+      white-space: nowrap;
+      box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+ul {
+    list-style-type: none;
+    padding: 60px ;
+    margin: 0
+}
+li{
+    line-height: 64px;
+}
+
+a{
+     color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+        opacity: 0.5
+}
+a:hover{
+    opacity: 1
+}
+
+
+.show-menu{
+    width: 350px;
+}
+
+
+
+
+.button-burguer {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+
+    
+  .bar1:hover, .bar2:hover, .bar3:hover {
+    opacity: 1;
+  }
+  
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: white;
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: white;
+  }
