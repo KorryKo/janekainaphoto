@@ -5,17 +5,17 @@ class LoginButton extends react.component {
 
     render() {
         return
-        <body>
-        <div className="container">
-            <h1>Привет!</h1>
-            <h2>Нажми на кнопку, чтобы войти</h2>
-            <a id="button" onClick="document.getElementById('id01').style.display='block'">
-                Войти
-                <div className="ring one"></div>
-                <div className="ring two"></div>
-                <div className="ring three"></div>
-                <div className="ring four"></div>
-            </a>
+            <div className="background-color-button">
+                <div className="container">
+                    <h1>Привет!</h1>
+                    <h2>Нажми на кнопку, чтобы войти</h2>
+                    <a id="button" onClick="document.getElementById('id01').style.display='block'">
+                    Войти
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                    <div className="ring four"></div>
+                    </a>
             <div id="id01" className="modal">
                 <span onClick="document.getElementById('id01').style.display='none'" className="close"
                       title="Close Modal">&times;</span>
@@ -47,6 +47,6 @@ class LoginButton extends react.component {
 
 
         </div>
-        </body>
+        </div>
     }
 }
